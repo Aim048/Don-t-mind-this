@@ -1,0 +1,38 @@
+Step-by-Step Guide for Animation Spoofing in Roblox Studio
+
+1. Install Node.js
+First, download and install Node.js.
+
+
+2. Get Roblox Security Cookie
+Open the Roblox website and log into your account.
+Right-click on the home page and select “Inspect” or “Inspect Element.”
+Go to the “Application” tab, then find and select “Cookies.”
+Locate the robloxsecurity cookie, copy its value (Warning: This cookie contains sensitive information; handle with care).
+
+
+3. Set Up Cookie in Script
+Open the folder where your project files are located and find the “STATUS” file.
+Open “STATUS,” paste the copied robloxsecurity cookie into it, and save the file.
+
+
+4. Configure LuaScript with User ID
+Open the “LuaScript.lua” file in a text editor.
+Find the line local UserToPublishToID =  and paste your User ID (e.g., 3040913792) after the equal sign.
+Save the file.
+
+
+5. Run Blurry Script
+Locate the “Blurry.bat” file, double-click to run it.
+When prompted, type 1 and press Enter.
+Next, type i and press Enter.
+Keep this window open while proceeding.
+
+
+6. Load Script into Roblox Studio
+Open Roblox Studio and load the place/game where you want to spoof the animations.
+In Roblox Studio, go to the “View” tab and enable the “Command Bar” if it’s not already visible.
+Go back to the folder, open “LuaScript.lua,” and copy all of its text (Ctrl + A, then Ctrl + C).
+In Roblox Studio, paste the copied text into the “Command Bar” and press Enter.
+
+Lastly wait for the auto spoofer to run.
